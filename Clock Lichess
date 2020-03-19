@@ -1,0 +1,96 @@
+@-moz-document domain("lichess.org"), domain("lichess.dev") {
+/*
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v10/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v10/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}*/
+
+.rclock .time {
+    background: #000000;
+}
+
+
+.rclock-bottom {
+
+  z-index: -4 !important;
+border-radius: 0 0 27px 2px;
+      width: 900px;
+    margin-top: 80px;
+}
+
+
+.rclock .time {
+display: inline-block;
+border: -0px solid #000;
+margin-left: -300px;
+    margin-top: -95px;
+    z-index: -4 !important;
+padding: -0 0px;
+font-size: 170px;
+font-family: 'Roboto Mono','Roboto' !important;
+   font-weight: bolder !important;
+ /*  font-family: 'Aldrich'; */
+
+height: 154px;
+line-height: 170px;
+    width: 900px;
+}
+
+
+.rclock-top {
+border-top: 100;
+  z-index: -4 !important;
+border-radius: 0 0 27px 2px;
+    width: 900px;
+    margin-top: 56px;
+}
+
+
+/*
+.round__app .rmoves .moves {
+display: none;
+}
+
+.rmoves .message {
+display: none;
+}*/
+
+
+
+.rmoves {
+    display: none;
+}
+
+/*.toggle
+{
+display: none;
+}*/
+
+#div1 {
+    z-index: 100;
+    margin-top: 100px;
+}
+
+
+/*iframe{
+display:block;
+}*/
+#iframe{
+    display:none;
+width:700px;
+    height:600px;
+}
+
+.material {display:none;}
+}
